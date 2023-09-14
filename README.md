@@ -3,11 +3,12 @@ target speaker extraction with speaker reference selection
 
 ## Dependencies
 
-'''
 pip install -r requirements.txt
 
 ## Fast Evaluation
 
 ## Prepare Dataset
 
-## 
+## Reference Selection
+
+## Speaker Extraction
