@@ -4,8 +4,6 @@
 
 target speaker extraction with speaker reference selection
 
-所有的模型都可以使用预训练的模型。
-
 ## Dependencies
 
 ```shell
