@@ -20,10 +20,6 @@ from pyannote.database.util import load_rttm
 from scipy.spatial.distance import cdist
 from pyannote.core import Segment
 
-# sd_pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization", use_auth_token="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")
-# osd_pipeline = Pipeline.from_pretrained("pyannote/overlapped-speech-detection", use_auth_token="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")
-sd_pipeline = Pipeline.from_pretrained("config_sd.yaml", use_auth_token="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")
-osd_pipeline = Pipeline.from_pretrained("config_osd.yaml", use_auth_token="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")
 emb_model = PretrainedSpeakerEmbedding(
             "speechbrain/spkrec-ecapa-voxceleb",
                 device=torch.device("cuda:5"))
