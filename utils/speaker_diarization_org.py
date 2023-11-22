@@ -13,8 +13,6 @@ import numpy as np
 import os
 import pdb
 
-pipeline = Pipeline.from_pretrained("config_osd.yaml", use_auth_token="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")
-# pipeline = Pipeline.from_pretrained("pyannote/overlapped-speech-detection", use_auth_token="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")
 
 def sd_from_path(audio_path):
     diarization = pipeline(audio_path)
